@@ -2,24 +2,41 @@
 position: relative;
 }
 
+.header-top{
+    height: 50px;
+
+}
+
+.header-bottom{
+    position: relative;
+    height: 55px;
+    background-color: lightgoldenrodyellow;
+}
+
 
 
 .logo{
-    left: 250px;
+    left: 55px;
     position:absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 46px;
 }
 
 .logo1{
-    left: 550px;
+    left: calc(50% - 25px);
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 .phone{
     position: absolute;
     right: 90px;
+    color: red;
+    height: 20px;
+    top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+
 }
 
 
@@ -28,4 +45,40 @@ position: relative;
     list-style: none;
     margin-right: 10px;
     color: red;
+
+}
+.elem a{
+    color: red;
+}
+
+
+.block{
+    width: calc(100% - 20px);
+
+    margin: 1px;
+    margin-left:15px;
+    position: relative;
+
+}
+
+
+.elem{
+
+    margin: 15px;
+    padding: 5px;
+}
+
+.Poisk{
+    position: absolute;
+    right: 60px;
+    height: 20px;
+    top: 82px;
+}
+
+.knopka_poiska{
+    background-image: url("icons/loooooopa.com_56924.svg");
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: absolute;
 }
